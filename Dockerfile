@@ -1,4 +1,4 @@
-FROM node:18-alpine AS base
+YoFROM node:18-alpine AS base
 
 FROM base AS deps
 
@@ -30,7 +30,7 @@ WORKDIR /app
 RUN apk add proxychains-ng
 
 ENV PROXY_URL=""
-ENV OPENAI_API_KEY=""
+ENV OPENAI_API_KEY="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"
 ENV CODE=""
 
 COPY --from=builder /app/public ./public
