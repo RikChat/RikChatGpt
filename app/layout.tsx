@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RikBot",
+  title: "Rik-Chat Bot",
   description: "Your personal RikBot.",
   viewport: {
     width: "device-width",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "RikBot",
+    title: "Rik-Chat Bot",
     statusBarStyle: "default",
   },
 };
